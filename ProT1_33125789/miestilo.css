@@ -1,0 +1,91 @@
+/* Estilos base */
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para section */
+section {
+    padding: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Clases */
+.destacado {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contenido {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Estilos para el nav */
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2f8247;
+}
+
+/* Estilos para imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 3px solid #69bd45;
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 150px;
+    border: none;
+}
